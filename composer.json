@@ -1,0 +1,32 @@
+{
+    "name": "rlabuta/yii2-lang-manager",
+    "type": "yii2-extension",
+    "description": "Multi language module",
+    "keywords": ["multi language", "widget language", "language url manager"],
+    "homepage": "https://github.com/gitruslan/yii2-lang",
+    "license" : "BSD",
+    "authors" : [
+        {
+            "name": "Labuta Ruslan",
+            "email": "ryslanfree@yandex.ru",
+            "homepage": "http://www.site-is-easy.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "rlabuta\\langmanager\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-live": "1.0.x-dev"
+        }
+    }
+}
